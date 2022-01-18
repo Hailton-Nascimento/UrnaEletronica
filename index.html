@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Urna Eletônica</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="titulo">Simulador de votação.</h1>
+        <label for="list-candidatos">Mostar Candidatos</label>
+        <input type="checkbox" name="candidatos" id="list-candidatos">
+
+        <div class="container-central">
+            <div class="urna">,
+                <div class="tela">
+                    <div class="tela-fim esconder">
+                        <div class="header-fim">
+                            <div class="dataHora">16/05/1982 as 09:09:09</div>
+                            <div class="bateria"><img src="img/bateria.jpg" alt=""></div>
+                        </div>
+                        <span>fim</span>
+                    </div>
+                    <div class="tela-salvando esconder">
+                        salvando
+                        <div class="container-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+
+                    </div>
+                    <div class="tela-principal esconder">
+                        <div class="esquerda">
+                            <div class="rotulo-info">
+                                <span class="">Seu voto para</span>
+                            </div>
+                            <div class="rotulo-cargo">
+                                <span>Cargo</span>
+                            </div>
+                            <div class="rotulo-numero">
+                                <div class="label-numero"><span>Número:</span></div>
+                                <div class="numero-input">
+                                </div>
+                            </div>
+                            <div class="rotulo-messagem">
+                                <div class="menssagem-erro ">Número errado</div>
+
+                                <div class="candidato-selecionado">
+                                    <p class="nome-candidato">Nome: <span></span></p>
+                                    <p class="partido-politico">Partido: <span></span></p>
+                                    <p class="nome-vice esconder">Vice-Prefeito: <span></span></p>
+                                    <p class="partido-vice esconder">Partido do vice: <span></span></p>
+                                </div>
+                                <div class="menssagem pisca esconder">VOTO NULO</div>
+
+
+                            </div>
+                        </div>
+                        <div class="direita">
+                            <div class="candidato">
+                                <div class="imagem">
+                                    <img src="" alt="Candidato">
+                                </div>
+                                <div class="cargo">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="candidato-menor esconder">
+                                <div class="imagem ">
+                                    <img src="" alt="Vice">
+                                </div>
+                                <div class="cargo">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tela-rodape esconder">
+
+                        <p>
+                            Aperte a tecla:
+                        </p>
+                        <span class="span-tecla">CONFIRMA</span>
+                        <span class="span-descricao">para CONFIRMAR este voto.</span><br>
+                        <span class="span-tecla">CORRIGE</span>
+                        <span class="span-descricao">para REINICIAR este voto.</span><br>
+
+                    </div>
+                    <div class="mensagem-voto-legenda esconder">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="teclado-container">
+                    <div class="logo-area">
+                        <img src="img/brasao.png" alt="Brasão de República" class="logo">
+                        <h2>Justiça Eleitoral</h2>
+                    </div>
+                    <div class="teclado">
+                        <div class="teclado-numeros">
+                            <div class="btn teclas-numeros">1</div>
+                            <div class="btn teclas-numeros">2</div>
+                            <div class="btn teclas-numeros">3</div>
+                            <div class="btn teclas-numeros">4</div>
+                            <div class="btn teclas-numeros">5</div>
+                            <div class="btn teclas-numeros">6</div>
+                            <div class="btn teclas-numeros">7</div>
+                            <div class="btn teclas-numeros">8</div>
+                            <div class="btn teclas-numeros">9</div>
+                            <div class="btn teclas-numeros">0</div>
+
+                        </div>
+                        <div class="teclado-botao">
+                            <div class="btn botao tecla-branco">branco</div>
+                            <div class="btn botao tecla-corrige">corrige</div>
+                            <div class="btn botao tecla-confirma">confirma</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="candidato-container">
+                <h2>lista de candidatos</h2>
+                <h3>Cargo: <span>/span></h3>
+                <div class="candidato-lista">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/etapas.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
