@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
- <a href="https://hailton-nascimento.github.io/UrnaEletrocina/" target="_blank" rel="noopener noreferrer">Demo</a>
+ <a href="https://hailton-nascimento.github.io/UrnaEletronica/" target="_blank" rel="noopener noreferrer">Demo</a>
 </h1>
 
 # Urna Eletrônica
